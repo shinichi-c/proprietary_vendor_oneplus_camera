@@ -10,7 +10,9 @@ include vendor/oneplus/camera/BoardConfigVendor.mk
 PRODUCT_PACKAGES += \
     OnePlusCamera \
     OnePlusCameraService \
-    OnePlusGallery
+    OnePlusCameraTarget \
+    OnePlusGallery \
+    OnePlusGalleryTarget
 
 # Permissions/Sysconfig
 PRODUCT_PACKAGES += \

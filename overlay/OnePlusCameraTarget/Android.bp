@@ -1,0 +1,9 @@
+//
+// Copyright (C) 2023-2025 crDroid Android Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "OnePlusCameraTarget",
+    system_ext_specific: true,
+}
