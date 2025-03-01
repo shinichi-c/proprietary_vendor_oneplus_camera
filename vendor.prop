@@ -1,0 +1,3 @@
+# Camera
+persist.vendor.camera.sceneclassify.enable=0
+vendor.camera.skip_unconfigure.packagelist=com.oneplus.camera
