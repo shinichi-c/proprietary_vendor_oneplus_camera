@@ -14,6 +14,9 @@ android_app_import {
     dex_preopt: {
         enabled: false,
     },
+    optional_uses_libs: [
+        "androidx.camera.extensions.impl"
+    ],
     privileged: true,
     system_ext_specific: true,
 }
@@ -37,7 +40,55 @@ android_app_import {
     dex_preopt: {
         enabled: false,
     },
-    optional_uses_libs: ["org.apache.http.legacy"],
+    optional_uses_libs: [
+        "org.apache.http.legacy"
+    ],
     privileged: true,
     system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-com.oneplus.camera.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "configs/privapp-permissions-com.oneplus.camera.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-com.oneplus.camera.service.xml",
+    sub_dir: "permissions",
+    src: "configs/privapp-permissions-com.oneplus.camera.service.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-com.oneplus.gallery.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "configs/privapp-permissions-com.oneplus.gallery.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "default-permissions-oneplus.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "configs/default-permissions-oneplus.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "hiddenapi-allowlist-oneplus.xml",
+    sub_dir: "sysconfig",
+    src: "configs/hiddenapi-allowlist-oneplus.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "oneplus_google_lens_config.xml",
+    system_ext_specific: true,
+    sub_dir: "sysconfig",
+    src: "configs/oneplus_google_lens_config.xml",
+    filename_from_src: true,
 }
