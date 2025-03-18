@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.oneplus.gallery.overlay"
-    android:versionCode="1"
-    android:versionName="1.0">
-    <overlay android:targetName="Gallery" android:targetPackage="com.oneplus.gallery" android:isStatic="true"/>
+    package="com.oneplus.gallery.overlay">
+    <application android:hasCode="false"/>
+    <overlay
+        android:isStatic="true"
+        android:priority="420"
+        android:resourcesMap="@xml/overlays"
+        android:targetPackage="com.oneplus.gallery"/>
 </manifest>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Overlay app_name so we can tell which camera app is which. -->
+    <item target="string/app_name" value="@string/app_name_overlay"/>
+</overlay>
