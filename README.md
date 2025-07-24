@@ -24,6 +24,9 @@ Maybe don't leave it on that mode when you're done, to avoid camera crashes late
 *Please note: OnePlus Gallery likes to periodically spin up the image classification process in the background after device has been idle for some time, even if not plugged in.*
 At least I think that's what it's doing. Whatever it is, it eats a LOT of battery, so you may want to get app info & set background battery usage to "Restricted" instead of the default "Optimized", or just remove the expansion .obb file altogether, if you're experiencing this drain.
 
+*Please note: If OnePlus Camera gets stuck in a state where it keeps crashing when you try to use slow-motion (high frame rate) or portrait mode, do the following:*
+Open the Files app and navigate to where you copied the unzipped `OnePlusCamera-platformcert.apk` app file, select it and choose "Update" (even though it's not a new version), then long-press on the OnePlus Camera app icon and select "Pro Mode" from the shortcut bubble, and try changing any exposure option. It should unlock the camera hardware again, and allow you to open the app normally & use slow-motion and portrait properly again.
+
 ## For ~~build bots~~ developers - Using this repository for compiling:
 _Yeah it's not an all-in-one magic self-contained solution like PJGowtham's work back in the day, sorry._
 
