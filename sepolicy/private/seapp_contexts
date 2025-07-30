@@ -1,6 +1,0 @@
-# Camera
-user=_app seinfo=platform isPrivApp=true name=com.oneplus.camera domain=oneplus_camera_app type=privapp_data_file levelFrom=all
-user=_app seinfo=platform isPrivApp=true name=com.oneplus.camera:* domain=oneplus_camera_app type=privapp_data_file levelFrom=all
-user=_app seinfo=platform isPrivApp=true name=com.oneplus.camera.service domain=oneplus_camera_service_app type=privapp_data_file levelFrom=all
-user=_app seinfo=platform isPrivApp=true name=com.oneplus.gallery domain=oneplus_gallery_app type=privapp_data_file levelFrom=all
-user=_app seinfo=platform isPrivApp=true name=com.oneplus.gallery:* domain=oneplus_gallery_app type=privapp_data_file levelFrom=all

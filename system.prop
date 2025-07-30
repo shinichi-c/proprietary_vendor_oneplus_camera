@@ -1,5 +1,2 @@
 # Camera
-camera.disable_zsl_mode=true
-persist.camera.assert.panic
-persist.vendor.camera.sceneclassify.enable=0
 ro.opcamera.support=true

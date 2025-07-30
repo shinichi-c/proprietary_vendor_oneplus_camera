@@ -1,3 +1,0 @@
-type oneplus_camera_app, domain;
-type oneplus_camera_service_app, domain;
-type oneplus_gallery_app, domain;
